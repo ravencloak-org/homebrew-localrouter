@@ -4,7 +4,7 @@ class Localrouter < Formula
   # checksums of the matching `localrouter-<os>-<arch>` asset for the tag.
   desc "Headless core for LocalRouter"
   homepage "https://github.com/ravencloak-org/LocalRouter"
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
