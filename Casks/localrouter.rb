@@ -1,9 +1,9 @@
 cask "localrouter" do
   # Update `version` and `sha256` on every release.
-  # Release automation replaces 271e217f3d59033dd94e9ea1c50e32e4ef393f3dd17d968fd632cf3ab7ef307c with the real checksum of
+  # Release automation replaces e3b3ad91851cf0648cd0f9ad05ca5ea54ab6753de3a165d06d8de7cf78576e7a with the real checksum of
   # LocalRouter-macos.zip for the tagged version.
-  version "0.1.4"
-  sha256 "271e217f3d59033dd94e9ea1c50e32e4ef393f3dd17d968fd632cf3ab7ef307c"
+  version "0.1.5"
+  sha256 "e3b3ad91851cf0648cd0f9ad05ca5ea54ab6753de3a165d06d8de7cf78576e7a"
 
   url "https://github.com/ravencloak-org/LocalRouter/releases/download/v#{version}/LocalRouter-macos.zip"
   name "LocalRouter"
