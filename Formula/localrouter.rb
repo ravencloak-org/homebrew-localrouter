@@ -4,12 +4,12 @@ class Localrouter < Formula
   # checksums of the matching `localrouter-<os>-<arch>` asset for the tag.
   desc "Headless core for LocalRouter"
   homepage "https://github.com/ravencloak-org/LocalRouter"
-  version "0.1.11"
+  version "0.1.12"
 
   on_macos do
     on_arm do
       url "https://github.com/ravencloak-org/LocalRouter/releases/download/v#{version}/localrouter-darwin-arm64"
-      sha256 "0d4eb9a832ade687e9f4426dfcbd29e37df7cbebdc65e4d9d6edde0fe1f98fc5"
+      sha256 "19c7603a7e861fcb9d8107bb4b2cc2fd58957417985aaf27ea236f2240b89563"
 
       def install
         bin.install "localrouter-darwin-arm64" => "localrouter"
@@ -17,7 +17,7 @@ class Localrouter < Formula
     end
     on_intel do
       url "https://github.com/ravencloak-org/LocalRouter/releases/download/v#{version}/localrouter-darwin-x64"
-      sha256 "9b2bab0a964f86c076cf66f4d14f7f60f4a810e665fc45051787341e4a9bb8d0"
+      sha256 "0acf59e97ab702759e468949e732ca560d32fc5b7c72f6f04ca742b991f9c225"
 
       def install
         bin.install "localrouter-darwin-x64" => "localrouter"
@@ -28,7 +28,7 @@ class Localrouter < Formula
   on_linux do
     on_arm do
       url "https://github.com/ravencloak-org/LocalRouter/releases/download/v#{version}/localrouter-linux-arm64"
-      sha256 "76772defbbed12cf7d6f37e247d021cdec729b8b8582009d1e18c882e580efa7"
+      sha256 "06ebb8d9bdd1627bdee7e89516cd1efcd58901e6eec63dee160c6b2f75cee89a"
 
       def install
         bin.install "localrouter-linux-arm64" => "localrouter"
@@ -36,7 +36,7 @@ class Localrouter < Formula
     end
     on_intel do
       url "https://github.com/ravencloak-org/LocalRouter/releases/download/v#{version}/localrouter-linux-x64"
-      sha256 "a520729ee0eab1de9811f205292c5f28b3fc74d282d4bddd2b30fcea3a003d5d"
+      sha256 "8e0ec1f9b7b3d2818b1d40d917c44e260539fdff5fb432718cf125c4be8866f7"
 
       def install
         bin.install "localrouter-linux-x64" => "localrouter"
